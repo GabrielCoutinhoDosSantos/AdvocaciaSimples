@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandre Quintanilha</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="sobre.html" target="_self">Sobre</a></li>
+                <li><a href="index.html">Contato</a></li>
+            </ul>
+            <!--MENU HAMBURGUER-->
+            <div class="hamburger-social">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <!--Mídias sociais-->
+                <div class="social-icons">
+                    <div class="social-icon"><img src="inst.png" alt="Social 1"></div>
+                    <div class="social-icon"><img src="face.png" alt="Social 2"></div>
+                    <div class="social-icon"><img src="linke.png" alt="Social 3"></div>
+                    <div class="social-icon"><a href="https://api.whatsapp.com/send?phone=+5511999998888&text=Olá, gostaria de mais informações." target="_blank"; alt="Social4">
+                          <img src="whats.png" alt="WhatsApp" style="width:30px; height:30px"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--VIDEO-->
+    <div class="video">
+        <video autoplay muted loop id="bg-video">
+            <source src="principal.mp4" type="video/mp4">
+        </video>
+        <span style="color: white;font-size: 80px;font-family: poppins-semibold, poppins, sans-serif;">Alexandre
+            Quintanilha</span>
+        <span style="color: white; font-size: 30px;">ADVOGADOS</span>
+    </div>
+<!--SOBRE NÓS-->
+<div class="sobrenos">
+    <span style="color: #333;font-size: 40px;font-family: 'Poppins', sans-serif;">SOBRE NÓS</span><br>
+    <p><strong>Alexandre Quintanilha ADVOGADOS</strong> é uma sociedade jovem e dinâmica, comprometida com a excelência no atendimento ao cliente. Nossa equipe é formada por profissionais altamente capacitados, que trazem uma rica experiência nas mais diversas áreas do Direito.</p><br>
+    <p>Localizado em Maricá, uma das cidades mais promissoras do estado do Rio de Janeiro, segundo o jornal Valor Econômico, o escritório <strong>Alexandre Quintanilha ADVOGADOS</strong> tem se desenvolvido em sinergia com o crescimento do município. Estamos dedicados a atender não apenas as demandas locais, mas também a oferecer serviços de qualidade a clientes de diversas regiões.</p><br>
+    <p>Com uma equipe formada por três sócios, a nossa atuação é fundamentada em três pilares essenciais:</p><br>
+    <p><strong>Transparência:</strong> Priorizamos a comunicação clara e honesta com nossos clientes, mantendo-os informados sobre todos os procedimentos judiciais e extrajudiciais adotados em seus casos. Acreditamos que um cliente bem informado é um cliente satisfeito.<br>
+
+        <strong>Seriedade:</strong> Tratamos com responsabilidade e respeito as questões mais delicadas e complexas, atendendo tanto empresas quanto pessoas físicas com a devida atenção. Nossa abordagem personalizada garante que cada caso seja tratado de forma única, levando em consideração as particularidades de cada situação.<br>
+
+        <strong>Eficiência:</strong> Nossa missão é resolver as demandas de nossos clientes de forma ágil, buscando as melhores soluções no menor tempo possível, sempre com foco na qualidade. Utilizamos tecnologia de ponta e metodologias atualizadas para otimizar nossos processos, resultando em um atendimento mais eficaz.</p><br>
+    <p>Além disso, no <strong>Alexandre Quintanilha ADVOGADOS</strong>, acreditamos na importância da constante atualização e capacitação. Nossos profissionais estão sempre em busca de novos conhecimentos e práticas, garantindo que ofereçamos as melhores soluções e estratégias legais.</p><br>
+    <p>Nosso escritório abrange diversas áreas do Direito, incluindo <strong>Direito Civil</strong>, <strong>Direito Empresarial</strong>, <strong>Direito Trabalhista</strong>, <strong>Direito de Família</strong>, entre outras. Essa diversidade nos permite atender a uma ampla gama de necessidades dos nossos clientes.</p><br>
+    <p>Entre em contato conosco através da aba de contato em nosso <strong>site</strong> ou pelo <strong>telefone</strong>. Estamos prontos para oferecer o suporte jurídico que você merece, com dedicação, profissionalismo e um compromisso inabalável com a sua satisfação.</p><br>
+</div>    
+
+    <div class="fim">
+        <div class="arrow">
+            <a href="#"><img src="seta.svg" alt="arrow"></a>
+        </div>
+        <a href="#" style=" text-decoration: none;"><span style="color:black; margin-top:0; cursor: pointer;">Topo da página</span></a>
+        <span style="color:black;">@2023 orgulhosamente criado pela Agência gB_neT.</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
