@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandre Quintanilha</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="sobre.html" target="_self">Sobre</a></li>
+                <li><a href="#fc">Contato</a></li>
+            </ul>
+            <!--MENU HAMBURGUER-->
+            <div class="hamburger-social">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <!--Mídias sociais-->
+                <div class="social-icons">
+                    <div class="social-icon"><img src="inst.png" alt="Social 1"></div>
+                    <div class="social-icon"><img src="face.png" alt="Social 2"></div>
+                    <div class="social-icon"><img src="linke.png" alt="Social 3"></div>
+                    <div class="social-icon"><a href="https://api.whatsapp.com/send?phone=+5511999998888&text=Olá, gostaria de mais informações." target="_blank"; alt="Social4">
+                          <img src="whats.png" alt="WhatsApp" style="width:30px; height:30px"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--VIDEO-->
+    <div class="video">
+        <video autoplay muted loop id="bg-video">
+            <source src="principal.mp4" type="video/mp4">
+        </video>
+        <span style="color: white;font-size: 80px;font-family: poppins-semibold, poppins, sans-serif;">Alexandre
+            Quintanilha</span>
+        <span style="color: white; font-size: 30px;">ADVOGADOS</span>
+    </div>
+    <!--NOSSA FILOSOFIA-->
+    <div class="filosofia">
+        <span style="color: #333;font-size: 40px;font-family: 'Poppins', sans-serif;">NOSSA FILOSOFIA</span>
+        <br>
+        <p>Alexandre Quintanilha Advogados é um escritório que possui como principal meta o atendimento especializado e
+            personalizado ao seus clientes. Cada caso é tratado como único e todas as informações referentes ao seu
+            desenvolvimento são transmitidas ao interessado com prontidão. Estamos sempre à disposição para sanar
+            dúvidas e prestar esclarecimentos.</p>
+        <br>
+        <p>Disponibilizamos profissionais para atuação junto aos clientes para atendimento de suas necessidades
+            imediatas e nas mais diversas áreas do direito, como; tributário, trabalhista, cível, dentre outros.</p>
+        <br>
+        <p>Agilidade e flexibilidade estão entre as principais características do escritório, buscando resultados
+            jurídicos sólidos e rápidos. Na prevenção realizamos uma avaliação exata dos riscos, com base na vasta
+            experiência de nossos colaboradores</p>
+    </div>
+    
+    <!--divisa-->
+    <div class="divisa""></div>
+
+    <!--ÁREAS DE ATUAÇÃO-->
+    <div class="atuacao">
+        <span style="color: darkred;font-size: 40px;font-family: Verdana;">ÁREAS DE ATUAÇÃO</span>
+        <div class="areaA">Direito Tributário</div>
+        <div class="areaA">Direito Trabalhista</div>
+        <div class="areaA">Direito Penal e Penal Tributário</div>
+        <div class="areaA">Direito Administrativo</div>
+        <div class="areaA">Direito Civil e Consumidor</div>
+        <div class="areaA">LGPD</div>
+    </div>
+    
+    <!--divisa-->
+    <div class="divisa""></div>
+
+    <!--DEPOIMENTOS-->
+    <div class="depoimento">
+        <span id="dp" style="color: white;font-size: 40px;font-family: Verdana;">DEPOIMENTO</span>
+        <div class="depo">
+            <span id="texto">
+                Gostaria de expressar minha sincera gratidão pelo notável comprometimento demonstrado pela equipe do
+                Escritório de Advocacia Gabriel Quintanilha. Desde o primeiro contato, fui acolhido de maneira
+                excepcional, recebendo constantes atualizações sobre o andamento dos meus processos legais. Esse
+                nível de dedicação fez uma diferença significativa em minha experiência.<br><br>
+                Além da impressionante expertise demonstrada pela equipe jurídica, é particularmente reconfortante
+                saber que posso contar com advogados tão qualificados e éticos. A confiança que vocês inspiram é
+                inestimável.<br><br>
+                Portanto, desejo expressar meu mais sincero agradecimento a todos. Seu profissionalismo e compromisso
+                não passaram despercebidos e fazem uma contribuição substancial para a resolução positiva dos meus
+                assuntos legais.<br><br> Mais uma vez, muito obrigado! </span>
+        </div>
+    </div>
+    <div class="faleConosco" id="fc">
+        <span style="color: white; font-size: 40px; font-family: Verdana; display: block;">FALE CONOSCO</span>
+        <div class="container">
+            <div class="footer">
+                <p style="color: #ADD3F8;font-size: 25px;">Endereço</p>
+                <span>Rua da Paz, 11 - 6º andar - Centro<br>Rio de Janeiro - RJ - 20045789</span>
+                <p style="color: #ADD3F8;font-size: 25px;">E-mail</p>
+                <span>administrativo.quintanilha@alexandrequintanilha.com.br</span>
+                <p style="color: #ADD3F8;font-size: 25px;">Telefone</p>
+                <span>(21) 2984-5660</span>
+            </div>
+            <div class="forms">
+                <form id="formulario">
+                    <div class="form">
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="form">
+                        <input type="text" id="email" name="email" required placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="form">
+                        <input type="number" id="telefone" name="telefone" required placeholder="Telefone para contato">
+                    </div>
+                    <div class="form">
+                        <textarea type="text" id="mensagem" name="mensagem" required
+                            placeholder="Escreva sua mensagem aqui"></textarea>
+                    </div>
+                    <div class="form">
+                        <button type="button" id="botaoCadastrar" onclick="enviar()">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="fim">
+        <div class="arrow">
+            <a href="#"><img src="seta.svg" alt="arrow"></a>
+        </div>
+        <a href="#" style=" text-decoration: none;"><span style="color:black; margin-top:0; cursor: pointer;">Topo da página</span></a>
+        <span style="color:black;">@2023 orgulhosamente criado pela Agência gB_neT.</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
